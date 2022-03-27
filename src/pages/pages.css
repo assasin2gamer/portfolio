@@ -1,0 +1,139 @@
+.img1{
+    position: relative;
+    left: 10%;
+    width: 45%;
+    top: 5%;
+}
+.img2{
+    position: absolute;
+    border: 5px solid #555;
+    left: 30vh;
+    width: 30vh;
+    top: 20vh
+}
+.img3{
+    position: absolute;
+    border: 5px solid #555;
+    left: 30vh;
+    width: 30vh;
+    top: 20vh
+}
+.img4{
+    position: absolute;
+    border: 5px solid #555;
+    left: 30vh;
+    width: 30vh;
+    top: 20vh
+}
+.list1{
+    position:relative;
+    left:10vh;
+}
+.list2{
+    position:relative;
+    left:20vh;
+}
+
+.button {
+    border-radius: 4px;
+    background-color: #a7a7a7;
+    border:#000000;
+    color: #000000;
+    text-align: center;
+    font-size: 2vh;
+    
+    transition: all 0.5s;
+    cursor: pointer;
+    margin: 5px;
+    height:5vh;
+  }
+  p {
+    animation-duration: 2s;
+    animation-name: slidein;
+  }
+  
+
+  @keyframes slidein {
+    from {
+      margin-left: 100%;
+      width: 300%;
+    }
+  
+    75% {
+      font-size: 200%;
+      margin-left: 10%;
+      width: 150%;
+    }
+  
+    to {
+      margin-left: 0%;
+      width: 100%;
+    }
+  }
+
+
+  .button {
+    border-radius: 4px;
+    background-color: #a7a7a7;
+    border:#000000;
+    color: #000000;
+    text-align: center;
+    font-size: 2vh;
+    
+    transition: all 0.5s;
+    cursor: pointer;
+    margin: 5px;
+    height:5vh;
+  }
+
+  @keyframes up {
+    0% {
+    opacity: 0;
+    }
+    10%, 90% {
+    opacity: 1;
+    }
+    100% {
+    opacity: 0;
+    transform: translateY(-1024px);
+    }
+  }
+ 
+  .button span {
+      
+    cursor: pointer;
+    display: inline-block;
+    position: relative;
+    transition: 0.5s;
+    background-color: #a7a7a7;
+    
+
+  }
+  
+  .button span:after {
+    content: '\00bb';
+    background-color: #a7a7a7;
+
+    position: absolute;
+    opacity: 0;
+    top: 0;
+    right: -20px;
+    transition: 0.5s;
+  }
+  
+  .button:hover span {
+    padding-right: 25px;
+    background-color: #a7a7a7;
+
+  }
+  
+  .button:hover span:after {
+    background-color: #a7a7a7;
+
+    opacity: 1;
+    right: 0;
+  }
+
+
+
+  
